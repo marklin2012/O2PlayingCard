@@ -1,6 +1,11 @@
 public struct O2PlayingCard {
   let rank: O2Rank
   let suit: O2Suit
+  
+  public init(rank: O2Rank, suit: O2Suit) {
+    self.rank = rank
+    self.suit = suit
+  }
 }
 
 
